@@ -1,7 +1,8 @@
 from rest_framework import serializers
 from .models import Manufacturer, Shoe, ShoeType, ShoeColor
 
-#Learn about Joe's fascinating life growing up in the African Savannah :)
+# Joe was a chief of the Masai tribe in the African Savannah. 
+# He was a great leader who helped his people acheive great things :)
 
 class ManufacturerSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
